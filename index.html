@@ -1,29 +1,35 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Horario Congreso Colombiano de Matemáticas</title>
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    th, td {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: center;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario Congreso Colombiano de Matemáticas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #ddd;
+        }
+        .hora {
+            width: 10%;
+            font-weight: bold;
+            background-color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
 
 <h2>Horario Congreso Colombiano de Matemáticas</h2>
 <table>
     <tr>
+        <th class="hora">Hora</th>
         <th>Lunes</th>
         <th>Martes</th>
         <th>Miércoles</th>
@@ -31,55 +37,94 @@
         <th>Viernes</th>
     </tr>
     <tr>
-        <td rowspan="2">3-6 pm <br> ACREDITACIÓN DE PARTICIPANTES</td>
-        <td colspan="2">8-11 <br> CEREMONIA DE INAUGURACIÓN Y ENTREGA DE PREMIOS</td>
-        <td>7-9 <br> Cursos</td>
-        <td>7-9 <br> Cursos</td>
-    </tr>
-    <tr>
-        <td>11-12 <br> Plenaria</td>
-        <td>11-12 <br> Plenaria</td>
-        <td>10-11 <br> Plenaria</td>
-        <td>10-11 <br> Plenaria</td>
-    </tr>
-    <tr>
+        <td class="hora">7:00 - 9:00</td>
         <td></td>
-        <td>12-2 <br> Almuerzo</td>
-        <td>12-2 <br> Almuerzo</td>
-        <td>12-2 <br> Almuerzo</td>
-        <td>12-2 <br> Almuerzo</td>
+        <td></td>
+        <td>Cursos</td>
+        <td>Cursos</td>
+        <td>Cursos</td>
     </tr>
     <tr>
+        <td class="hora">8:00 - 11:00</td>
         <td></td>
-        <td>2-3:30 <br> Contribuidas</td>
-        <td>2-3:30 <br> Contribuidas</td>
-        <td>2-3:30 <br> Contribuidas</td>
-        <td>2-3:30 <br> Contribuidas</td>
+        <td>Ceremonia de inauguración y entrega de premios</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
+        <td class="hora">10:00 - 11:00</td>
         <td></td>
-        <td colspan="4">3:30-4 <br> Café/Posters</td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
     </tr>
     <tr>
+        <td class="hora">11:00 - 12:00</td>
         <td></td>
-        <td>4-5 <br> Semiplenarias</td>
-        <td>4-5 <br> Semiplenarias</td>
-        <td>4-5 <br> Semiplenarias</td>
-        <td>4-5 <br> Semiplenarias</td>
+        <td>Plenaria</td>
+        <td>Semiplenaria</td>
+        <td>Semiplenaria</td>
+        <td>Semiplenaria</td>
     </tr>
     <tr>
+        <td class="hora">12:00 - 2:00</td>
         <td></td>
-        <td>5-6 <br> Plenaria</td>
-        <td>5-6 <br> Plenaria</td>
-        <td>5-6 <br> Plenaria</td>
-        <td>5-6 <br> Plenaria</td>
+        <td>Almuerzo</td>
+        <td>Almuerzo</td>
+        <td>Almuerzo</td>
+        <td>Almuerzo</td>
     </tr>
     <tr>
+        <td class="hora">2:00 - 3:30</td>
         <td></td>
-        <td colspan="4">6-7 <br> Actividad Cultural</td>
+        <td>Contribuidas</td>
+        <td>Contribuidas</td>
+        <td>Contribuidas</td>
+        <td>Contribuidas</td>
+    </tr>
+    <tr>
+        <td class="hora">3:30 - 4:00</td>
+        <td></td>
+        <td>Café/Posters</td>
+        <td>Café/Posters</td>
+        <td>Café/Posters</td>
+        <td>Café/Posters</td>
+    </tr>
+    <tr>
+        <td class="hora">3:00 - 6:00</td>
+        <td>Acreditación de participantes</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="hora">4:00 - 5:00</td>
+        <td></td>
+        <td>Semiplenarias</td>
+        <td>Semiplenarias</td>
+        <td>Semiplenarias</td>
+        <td>Semiplenarias</td>
+    </tr>
+    <tr>
+        <td class="hora">5:00 - 6:00</td>
+        <td></td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
+        <td>Plenaria</td>
+    </tr>
+    <tr>
+        <td class="hora">6:00 - 7:00</td>
+        <td></td>
+        <td>Actividad cultural</td>
+        <td>Actividad cultural</td>
+        <td>Actividad cultural</td>
+        <td>Actividad cultural</td>
     </tr>
 </table>
 
 </body>
-            </html>
-            
+</html>
